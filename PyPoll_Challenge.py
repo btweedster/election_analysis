@@ -77,7 +77,7 @@ with open(file_to_save,"w") as txt_file:
         f"Election Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n\n"
+        f"-------------------------\n"
         f"County Votes:\n"
     )
 
@@ -107,7 +107,6 @@ with open(file_to_save,"w") as txt_file:
     
     # Establish largest county and formatting
     county_summary = (
-        f"\n"
         f"-------------------------\n"
         f"Largest County Turnout: {largest_county}\n"
         f"-------------------------\n"
